@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MukminQuran</string>
+    <string name="facebook_app_id">678570310798442</string>
+    <string name="fb_login_protocol_scheme">fb678570310798442</string>
+    <string name="facebook_client_token">52315f40fc8e1db4bf3bc91b6e88d5f4</string>
+    <string name="pause_label">Pause video</string>
+    <string name="permission_warning">This app will not run without permission to read from storage. Click to enable permission.</string>
+    <string name="play_label">Play video</string>
+    <string name="enter_vr_label">Enter VR mode</string>
+    <string name="exit_vr_label">Exit VR mode</string>
+</resources>

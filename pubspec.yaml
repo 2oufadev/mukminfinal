@@ -1,0 +1,271 @@
+name: mukim_app
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.8+38
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts:
+  sqflite: ^2.0.0+3
+  # conditional_builder: ^1.0.2
+  google_maps_flutter:
+  card_swiper:
+  flutter_swiper_null_safety:
+  url_launcher:
+  scroll_snap_list:
+  auto_animated:
+  clipboard:
+  intl:
+  simple_gesture_detector:
+  syncfusion_flutter_datepicker: 
+  simple_gradient_text:
+  # flutter_multi_carousel: ^1.0.3
+  webview_flutter: ^2.0.10
+  smooth_page_indicator: ^1.0.0+2
+  fluttertoast: ^8.0.8
+  carousel_slider: ^4.0.0
+  file_picker: 
+  path_provider: ^2.0.3
+  path: ^1.7.0
+  http: ^0.13.3
+  page_transition: ^2.0.2
+  share_plus: 
+  mouse_parallax: ^1.1.0
+  sliding_up_panel: ^2.0.0+1
+  assets_audio_player: ^3.0.5
+  syncfusion_flutter_gauges: 
+  rive: ^0.9.0
+  flutter_screenutil: ^5.8.4
+  shimmer: ^2.0.0
+  weather: ^2.0.1
+  weather_icons: ^3.0.0
+  hexcolor: ^2.0.5
+  permission_handler: ^8.1.4+2
+  location: ^4.3.0
+  hijri: ^3.0.0
+  adhan: ^2.0.0-nullsafety.2
+  flutter_bloc: ^7.2.1
+  flutter_compass: ^0.7.0
+  camera:
+    git:
+     url: https://github.com/camsim99/plugins.git
+     path: packages/camera/camera
+     ref: issue_89578_dev
+  flutter_svg: 
+  shared_preferences: ^2.0.7
+  flutter_login: 
+    path: ./flutter_login-master-modified/
+  provider:
+  font_awesome_flutter:
+  # flutter_earth: ^0.0.4
+  app_settings: ^4.1.8
+  device_info_plus: 
+  video_player: 
+  rect_getter: ^1.0.0
+  scrollable_positioned_list: ^0.3.2
+  just_audio_cache: ^0.1.1
+  geolocator: ^7.6.1
+  geocoding: ^2.1.0
+  custom_info_window: ^1.0.1
+  flutter_rating_bar: ^4.0.0
+  google_place: 0.4.3
+  flutter_facebook_auth: 
+  google_sign_in:
+  map_launcher: ^2.2.2
+  firebase_auth: 
+  firebase_core: 
+  cloud_firestore: 
+  spring_button: ^2.0.0
+  flutter_qiblah: ^2.0.1
+  flutter_vibrate: ^1.3.0
+  maps_toolkit: ^2.0.0
+  flutter_web_browser: ^0.17.1
+  flutter_webview_plugin: ^0.4.0
+  chewie: ^1.7.1
+  xml: 
+  abstract_date: ^1.0.2
+  flutter_local_notifications: ^12.0.2
+  uni_links: ^0.5.1
+  panorama: ^0.4.1
+  sign_in_with_apple: ^4.0.0
+  in_app_purchase: ^3.0.7
+  flutter_native_timezone: ^2.0.0
+  firebase_messaging: ^14.1.0
+  cloud_functions: ^4.0.4
+  firebase_dynamic_links: ^5.0.12
+  equatable: ^2.0.5
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+#  test: ^1.16.8
+flutter_icons:
+  image_path_android: "assets/images/Finalfile.jpg"
+  image_path_ios: "assets/images/Finalfile.jpg"
+  android: true
+  ios: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/lang/
+    - icons/
+    - image/
+    - google_fonts/
+    - assets/
+    - assets/sounde/click2.mp3
+    - assets/sounde/click.mp3
+    - assets/splash.svg
+    - assets/qiblat.svg
+    - assets/quran.svg
+    - assets/hadith.svg
+    - assets/doa.svg
+    - assets/home.svg
+    - assets/article.svg
+    - assets/more.svg
+    - assets/donation.svg
+    - assets/mosque.svg
+    - assets/logo.svg
+    - assets/mosq.svg
+    - assets/calendar.svg
+    - assets/remembrance.svg
+    - assets/restaurant.svg
+    - assets/settings.svg
+    - assets/sirah.svg
+    - assets/share.svg
+    - assets/background.png
+    - assets/background2.png
+    - assets/w1.png
+    - assets/w2.png
+    - assets/w3.png
+    - assets/w4.png
+    - assets/w5.png
+    - assets/w6.png
+    - assets/homebackground.png
+    - assets/appbarbackground.png
+    - assets/google.svg
+    - assets/facebook.svg
+    - assets/hello.gif
+    - assets/images/
+    - assets/animation/
+    - assets/images/1/
+    - assets/images/2/
+    - assets/images/3/
+    - assets/images/4/
+    - assets/images/main_screen_icons/
+    - assets/images/compasses/
+    - assets/images/bottom_bar/
+    - assets/images/kiblat_kaba/
+    - assets/images/search/
+    - assets/theme/default/
+    - assets/theme/pink/
+    - assets/theme/purple/
+    - assets/theme/biru/
+    - assets/theme/orange/
+    - assets/theme/yellow/
+    - assets/images/weather/colorday/
+    - assets/images/weather/colornight/
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/Space_Mono/SpaceMono-Bold.ttf
+        - asset: assets/fonts/Space_Mono/SpaceMono-Regular.ttf
+          weight: 700
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/fonts/MyFlutterApp.ttf
+
+    
+
+    - family: digital
+      fonts:
+        - asset: assets/fonts/digital.ttf
+    - family: KFGQPC
+      fonts:
+        - asset: assets/fonts/KFGQPC Uthman Taha Naskh Regular.ttf
+    - family: KFGQPC2
+      fonts:
+        - asset: assets/fonts/KFGQPC Uthmanic Script HAFS Regular.otf
+    - family: Quran
+      fonts:
+        - asset: assets/fonts/QuranKarim.ttf
+    - family: Mcs-Quran
+      fonts:
+        - asset: assets/fonts/Mcs-Quran.ttf
+    - family: KSARegular
+      fonts:
+        - asset: assets/fonts/UthmanTN1Ver10.otf
+    
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

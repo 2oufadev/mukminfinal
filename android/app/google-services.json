@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "170746211772",
+    "project_id": "mukmin-apps",
+    "storage_bucket": "mukmin-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170746211772:android:ad93d5e4d29f03c6008fb9",
+        "android_client_info": {
+          "package_name": "com.alamintijarahresources.mukminapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170746211772-d2nmq5eb8puet4u2d1ptlv043o88a5bn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alamintijarahresources.mukminapps",
+            "certificate_hash": "a6749a5c52a1df00b3b9e3254c8df0825ebfd215"
+          }
+        },
+        {
+          "client_id": "170746211772-kfkg7p3hsit65estli64vh1mvj4adrvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsMxZiobCtFCUk7v2iinetVT2VaPqDrm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170746211772-kfkg7p3hsit65estli64vh1mvj4adrvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

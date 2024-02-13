@@ -1,0 +1,11 @@
+framework module motion_sensors {
+  umbrella header "motion_sensors-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module motion_sensors.Swift {
+  header "motion_sensors-Swift.h"
+  requires objc
+}
